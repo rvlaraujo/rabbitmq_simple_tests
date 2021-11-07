@@ -45,3 +45,9 @@ First, run the one or more subscribers and then runs the publisher.py script
 In the folder 3_selective_routing, you can find an implementation of a Selective Routing approuch, which is used the Default Exchange to incoming messages to the subscribers, when they create the binding rules in the Exchange.
 
 First you must run the subscribers (screenprinter.py, filewriter.py and alarmeraise.py) and so then runs the publisher. This is important since the messages what are incoming with no has binding rules, all messages are discarded for the Exchange.
+
+### 4 - Topic Exchange
+
+The folder 4_topic_exchange has an implemmentation of a Topic Exchange based on multiple patterns.
+
+First you must execute the subscribers and so then run the publisher. If the exchange is deleted, the binging rules are lost.
