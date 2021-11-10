@@ -51,3 +51,9 @@ First you must run the subscribers (screenprinter.py, filewriter.py and alarmera
 The folder 4_topic_exchange has an implemmentation of a Topic Exchange based on multiple patterns.
 
 First you must execute the subscribers and so then run the publisher. If the exchange is deleted, the binging rules are lost.
+
+### 5 - Reliable Communication
+
+In the folder 5_realible_communication you'll see a basic implementation of a Realibel Communication, simulating an subscriber messages overload.
+
+First you must execute 2 or more subscribers (in diferent terminals) and so then run the publisher.
